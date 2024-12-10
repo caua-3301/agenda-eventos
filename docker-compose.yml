@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   database:
     image: postgres:12-alpine
@@ -11,6 +13,12 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+    networks:
+      - agenda-network
 
 volumes:
   pgdata:
+
+networks:
+  agenda-network:
+    driver: bridge
