@@ -1,4 +1,4 @@
-package service;
+package com.makesoftware.agendar.service;
 
 import org.springframework.stereotype.Service;
 

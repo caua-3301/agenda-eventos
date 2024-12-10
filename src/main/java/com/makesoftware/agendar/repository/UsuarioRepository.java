@@ -1,6 +1,6 @@
-package repository;
+package com.makesoftware.agendar.repository;
 
-import model.Usuario;
+import com.makesoftware.agendar.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

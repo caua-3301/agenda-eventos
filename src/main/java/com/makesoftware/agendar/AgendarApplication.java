@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 
 @SpringBootApplication
-@EntityScan(basePackages = "model")
+@EntityScan(basePackages = "com/makesoftware/agendar/model")
 public class AgendarApplication {
 
 	public static void main(String[] args) {
